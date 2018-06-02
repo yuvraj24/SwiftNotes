@@ -129,7 +129,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="323" height="457"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marvel" translatesAutoresizingMaskIntoConstraints="NO" id="FSc-Zm-NeZ">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="notes" translatesAutoresizingMaskIntoConstraints="NO" id="FSc-Zm-NeZ">
                             <rect key="frame" x="122" y="189" width="80" height="80"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="80" id="5rb-YX-QKn"/>
@@ -184,7 +184,7 @@
                                 <rect key="frame" x="0.0" y="64" width="320" height="180"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4xm-UO-ByJ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4xm-UO-ByJ">
                                 <rect key="frame" x="0.0" y="64" width="320" height="180"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uce-3v-JNx">
@@ -309,43 +309,27 @@
                                     <outlet property="delegate" destination="cY6-Ns-4Kh" id="9zl-lp-N8Q"/>
                                 </connections>
                             </mapView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OUK-9O-cEB" customClass="CardView" customModule="SwiftStorage" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="64" width="320" height="50"/>
-                                <subviews>
-                                    <searchBar contentMode="redraw" searchBarStyle="prominent" placeholder="Search Location" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UrK-Rq-9Ez">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
-                                        <textInputTraits key="textInputTraits" returnKeyType="search" enablesReturnKeyAutomatically="YES"/>
-                                        <scopeButtonTitles>
-                                            <string>Title</string>
-                                            <string>Title</string>
-                                        </scopeButtonTitles>
-                                    </searchBar>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <searchBar contentMode="redraw" searchBarStyle="prominent" placeholder="Search Location" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UrK-Rq-9Ez">
+                                <rect key="frame" x="0.0" y="64" width="320" height="56"/>
                                 <constraints>
-                                    <constraint firstItem="UrK-Rq-9Ez" firstAttribute="top" secondItem="OUK-9O-cEB" secondAttribute="top" id="1Mf-uG-qVm"/>
-                                    <constraint firstItem="UrK-Rq-9Ez" firstAttribute="leading" secondItem="OUK-9O-cEB" secondAttribute="leading" id="Pua-Rg-lA8"/>
-                                    <constraint firstAttribute="trailingMargin" secondItem="UrK-Rq-9Ez" secondAttribute="trailing" constant="-8" id="xuI-dc-qnn"/>
+                                    <constraint firstAttribute="height" constant="56" id="UHI-PG-rVp"/>
                                 </constraints>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lPg-jM-5Zi">
-                                <rect key="frame" x="313" y="26" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                            </button>
+                                <textInputTraits key="textInputTraits" returnKeyType="search" enablesReturnKeyAutomatically="YES"/>
+                                <scopeButtonTitles>
+                                    <string>Title</string>
+                                    <string>Title</string>
+                                </scopeButtonTitles>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="OUK-9O-cEB" firstAttribute="leading" secondItem="Xpe-Wt-NjR" secondAttribute="leading" id="4lU-g4-dkV"/>
-                            <constraint firstItem="Xpe-Wt-NjR" firstAttribute="leading" secondItem="x71-12-C6x" secondAttribute="leading" id="69n-Lp-hoD"/>
-                            <constraint firstItem="OUK-9O-cEB" firstAttribute="top" secondItem="Xpe-Wt-NjR" secondAttribute="top" id="8K2-Xi-FTN"/>
-                            <constraint firstItem="x71-12-C6x" firstAttribute="bottom" secondItem="Xpe-Wt-NjR" secondAttribute="bottom" id="CUu-4J-Vpi"/>
-                            <constraint firstItem="Xpe-Wt-NjR" firstAttribute="top" secondItem="x71-12-C6x" secondAttribute="top" id="CeF-29-0L6"/>
-                            <constraint firstItem="x71-12-C6x" firstAttribute="trailing" secondItem="Xpe-Wt-NjR" secondAttribute="trailing" id="Qg3-4N-nMO"/>
-                            <constraint firstItem="lPg-jM-5Zi" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="OfN-6b-egG" secondAttribute="leadingMargin" id="TVx-ZQ-I01"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="lPg-jM-5Zi" secondAttribute="trailing" constant="-55" id="mNN-a7-6CH"/>
-                            <constraint firstItem="OUK-9O-cEB" firstAttribute="top" secondItem="lPg-jM-5Zi" secondAttribute="bottom" constant="8" symbolic="YES" id="oBP-iu-Xwv"/>
-                            <constraint firstItem="x71-12-C6x" firstAttribute="bottom" secondItem="OUK-9O-cEB" secondAttribute="bottom" constant="454" id="tKu-Ro-6ac"/>
-                            <constraint firstItem="OUK-9O-cEB" firstAttribute="trailing" secondItem="Xpe-Wt-NjR" secondAttribute="trailing" id="yyo-J3-sUQ"/>
+                            <constraint firstItem="Xpe-Wt-NjR" firstAttribute="trailing" secondItem="x71-12-C6x" secondAttribute="trailing" id="3zB-Ee-4qu"/>
+                            <constraint firstItem="x71-12-C6x" firstAttribute="trailing" secondItem="UrK-Rq-9Ez" secondAttribute="trailing" id="ClG-Nb-vYf"/>
+                            <constraint firstItem="Xpe-Wt-NjR" firstAttribute="leading" secondItem="x71-12-C6x" secondAttribute="leading" id="DVJ-qs-09y"/>
+                            <constraint firstItem="Xpe-Wt-NjR" firstAttribute="top" secondItem="x71-12-C6x" secondAttribute="top" id="FWq-vN-N4G"/>
+                            <constraint firstItem="UrK-Rq-9Ez" firstAttribute="top" secondItem="x71-12-C6x" secondAttribute="top" id="MUg-xl-qPB"/>
+                            <constraint firstItem="UrK-Rq-9Ez" firstAttribute="leading" secondItem="x71-12-C6x" secondAttribute="leading" id="MqP-Qr-az0"/>
+                            <constraint firstItem="Xpe-Wt-NjR" firstAttribute="bottom" secondItem="x71-12-C6x" secondAttribute="bottom" id="uru-Gy-kw0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="x71-12-C6x"/>
                     </view>
@@ -395,7 +379,7 @@
     <resources>
         <image name="location" width="256" height="256"/>
         <image name="marker" width="256" height="256"/>
-        <image name="marvel" width="150" height="150"/>
+        <image name="notes" width="256" height="256"/>
         <image name="photo" width="256" height="256"/>
     </resources>
 </document>

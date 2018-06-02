@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marvel" highlightedImage="marvel" translatesAutoresizingMaskIntoConstraints="NO" id="xPC-ay-bR1">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="notes" highlightedImage="marvel" translatesAutoresizingMaskIntoConstraints="NO" id="xPC-ay-bR1">
                                 <rect key="frame" x="112" y="258" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="Xfy-zG-me8"/>
@@ -26,7 +26,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47450980392156861" blue="0.52156862745098043" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="xPC-ay-bR1" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="NXh-oK-Iqd"/>
                             <constraint firstItem="xPC-ay-bR1" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Z66-tC-ehG"/>
@@ -41,5 +41,6 @@
     </scenes>
     <resources>
         <image name="marvel" width="150" height="150"/>
+        <image name="notes" width="256" height="256"/>
     </resources>
 </document>
