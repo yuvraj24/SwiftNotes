@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D507016520BC2CBE0029FD84 /* CoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D507016420BC2CBE0029FD84 /* CoreTableViewController.swift */; };
+		D507016720BC342D0029FD84 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D507016620BC342D0029FD84 /* NotesViewController.swift */; };
+		D507016920BD285F0029FD84 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D507016820BD285F0029FD84 /* LocationViewController.swift */; };
 		D5418B4C20B9E9A0001D620C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5418B4B20B9E9A0001D620C /* AppDelegate.swift */; };
 		D5418B4E20B9E9A0001D620C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5418B4D20B9E9A0001D620C /* ViewController.swift */; };
 		D5418B5120B9E9A0001D620C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5418B4F20B9E9A0001D620C /* Main.storyboard */; };
 		D5418B5420B9E9A0001D620C /* SwiftStorage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5418B5220B9E9A0001D620C /* SwiftStorage.xcdatamodeld */; };
 		D5418B5620B9E9A4001D620C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5418B5520B9E9A4001D620C /* Assets.xcassets */; };
 		D5418B5920B9E9A4001D620C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5418B5720B9E9A4001D620C /* LaunchScreen.storyboard */; };
+		D5418B6120B9F122001D620C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5418B6020B9F122001D620C /* CardView.swift */; };
+		D5A119C120BD734300AB4CC2 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A119C020BD734300AB4CC2 /* BaseViewController.swift */; };
+		D5A119C320BD7E6D00AB4CC2 /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A119C220BD7E6D00AB4CC2 /* LocationHelper.swift */; };
+		D5A119C620BD918900AB4CC2 /* CoreDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A119C520BD918900AB4CC2 /* CoreDataHandler.swift */; };
+		D5A119C820BD92D600AB4CC2 /* NotesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A119C720BD92D600AB4CC2 /* NotesHelper.swift */; };
+		D5A119CC20BE8BD700AB4CC2 /* NotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A119CA20BE8BD600AB4CC2 /* NotesTableViewCell.swift */; };
+		D5A119CD20BE8BD700AB4CC2 /* NotesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5A119CB20BE8BD600AB4CC2 /* NotesTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D507016420BC2CBE0029FD84 /* CoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTableViewController.swift; sourceTree = "<group>"; };
+		D507016620BC342D0029FD84 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		D507016820BD285F0029FD84 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		D5418B4820B9E9A0001D620C /* SwiftStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5418B4B20B9E9A0001D620C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5418B4D20B9E9A0001D620C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +37,13 @@
 		D5418B5520B9E9A4001D620C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5418B5820B9E9A4001D620C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5418B5A20B9E9A4001D620C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5418B6020B9F122001D620C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		D5A119C020BD734300AB4CC2 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		D5A119C220BD7E6D00AB4CC2 /* LocationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
+		D5A119C520BD918900AB4CC2 /* CoreDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHandler.swift; sourceTree = "<group>"; };
+		D5A119C720BD92D600AB4CC2 /* NotesHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesHelper.swift; sourceTree = "<group>"; };
+		D5A119CA20BE8BD600AB4CC2 /* NotesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewCell.swift; sourceTree = "<group>"; };
+		D5A119CB20BE8BD600AB4CC2 /* NotesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotesTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +62,7 @@
 			children = (
 				D5418B4A20B9E9A0001D620C /* SwiftStorage */,
 				D5418B4920B9E9A0001D620C /* Products */,
+				D5A119BD20BD6D0200AB4CC2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +77,9 @@
 		D5418B4A20B9E9A0001D620C /* SwiftStorage */ = {
 			isa = PBXGroup;
 			children = (
+				D5A119C920BD936800AB4CC2 /* helper */,
+				D5A119C420BD917200AB4CC2 /* coredata */,
+				D5A119C020BD734300AB4CC2 /* BaseViewController.swift */,
 				D5418B4B20B9E9A0001D620C /* AppDelegate.swift */,
 				D5418B4D20B9E9A0001D620C /* ViewController.swift */,
 				D5418B4F20B9E9A0001D620C /* Main.storyboard */,
@@ -63,8 +87,38 @@
 				D5418B5720B9E9A4001D620C /* LaunchScreen.storyboard */,
 				D5418B5A20B9E9A4001D620C /* Info.plist */,
 				D5418B5220B9E9A0001D620C /* SwiftStorage.xcdatamodeld */,
+				D5418B6020B9F122001D620C /* CardView.swift */,
+				D507016420BC2CBE0029FD84 /* CoreTableViewController.swift */,
+				D507016620BC342D0029FD84 /* NotesViewController.swift */,
+				D507016820BD285F0029FD84 /* LocationViewController.swift */,
 			);
 			path = SwiftStorage;
+			sourceTree = "<group>";
+		};
+		D5A119BD20BD6D0200AB4CC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5A119C420BD917200AB4CC2 /* coredata */ = {
+			isa = PBXGroup;
+			children = (
+				D5A119C520BD918900AB4CC2 /* CoreDataHandler.swift */,
+			);
+			path = coredata;
+			sourceTree = "<group>";
+		};
+		D5A119C920BD936800AB4CC2 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				D5A119C220BD7E6D00AB4CC2 /* LocationHelper.swift */,
+				D5A119C720BD92D600AB4CC2 /* NotesHelper.swift */,
+				D5A119CA20BE8BD600AB4CC2 /* NotesTableViewCell.swift */,
+				D5A119CB20BE8BD600AB4CC2 /* NotesTableViewCell.xib */,
+			);
+			path = helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +153,11 @@
 				TargetAttributes = {
 					D5418B4720B9E9A0001D620C = {
 						CreatedOnToolsVersion = 9.3.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -128,6 +187,7 @@
 				D5418B5920B9E9A4001D620C /* LaunchScreen.storyboard in Resources */,
 				D5418B5620B9E9A4001D620C /* Assets.xcassets in Resources */,
 				D5418B5120B9E9A0001D620C /* Main.storyboard in Resources */,
+				D5A119CD20BE8BD700AB4CC2 /* NotesTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +198,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D507016920BD285F0029FD84 /* LocationViewController.swift in Sources */,
+				D5A119C620BD918900AB4CC2 /* CoreDataHandler.swift in Sources */,
 				D5418B4E20B9E9A0001D620C /* ViewController.swift in Sources */,
+				D5A119C820BD92D600AB4CC2 /* NotesHelper.swift in Sources */,
+				D507016520BC2CBE0029FD84 /* CoreTableViewController.swift in Sources */,
+				D507016720BC342D0029FD84 /* NotesViewController.swift in Sources */,
+				D5418B6120B9F122001D620C /* CardView.swift in Sources */,
+				D5A119C120BD734300AB4CC2 /* BaseViewController.swift in Sources */,
+				D5A119C320BD7E6D00AB4CC2 /* LocationHelper.swift in Sources */,
 				D5418B5420B9E9A0001D620C /* SwiftStorage.xcdatamodeld in Sources */,
 				D5418B4C20B9E9A0001D620C /* AppDelegate.swift in Sources */,
+				D5A119CC20BE8BD700AB4CC2 /* NotesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
