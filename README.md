@@ -4,7 +4,7 @@ Social Login's have become a must to have feature in every app that is build now
 This sample demonstrates the usage  of native <b>Facebook, Google & Firebase Authentication</b> Sdk's developed with love in Swift 4.1 & XCode 9.
 
 <p float="left">
-  <img src="https://github.com/yuvraj24/SwiftSocial/blob/master/swiftsocial/Screenshots/swiftxcode.jpg" />
+  <img src="https://github.com/yuvraj24/SwiftNotes/blob/master/SwiftStorage/SwiftStorage/screenshot/banner.png" />
 </p>
 
 # Spread Your ❤️:
@@ -12,6 +12,17 @@ This sample demonstrates the usage  of native <b>Facebook, Google & Firebase Aut
 [![GitHub followers](https://img.shields.io/github/followers/yuvraj24.svg?style=social&label=Follow)](https://github.com/yuvraj24)  [![Twitter Follow](https://img.shields.io/twitter/follow/yuvrajpandey24.svg?style=social)](https://twitter.com/yuvrajpandey24)
 
 Following are some screenshots to get a glimpse of what the sample deliver's to you,
+
+<p float="left">
+  <img src="https://github.com/yuvraj24/SwiftNotes/blob/master/SwiftStorage/SwiftStorage/screenshot/splash.png" width="400" />
+  <img src="https://github.com/yuvraj24/SwiftNotes/blob/master/SwiftStorage/SwiftStorage/screenshot/home1.png" width="400" />
+  <img src="https://github.com/yuvraj24/SwiftNotes/blob/master/SwiftStorage/SwiftStorage/screenshot/notes1.png" width="400" />
+  <img src="https://github.com/yuvraj24/SwiftNotes/blob/master/SwiftStorage/SwiftStorage/screenshot/notes2.png" width="400" />
+  <img src="https://github.com/yuvraj24/SwiftNotes/blob/master/SwiftStorage/SwiftStorage/screenshot/map1.png" width="400" />
+  <img src="https://github.com/yuvraj24/SwiftNotes/blob/master/SwiftStorage/SwiftStorage/screenshot/map2.png" width="400" />
+  <img src="https://github.com/yuvraj24/SwiftNotes/blob/master/SwiftStorage/SwiftStorage/screenshot/notes3.png" width="400" />
+  <img src="https://github.com/yuvraj24/SwiftNotes/blob/master/SwiftStorage/SwiftStorage/screenshot/home2.png" width="400" />
+</p>
 
 
 # About Me
