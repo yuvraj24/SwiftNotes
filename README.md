@@ -1,29 +1,35 @@
 # SwiftNotes
 
-Social Login's have become a must to have feature in every app that is build now a days.</br>
-This sample demonstrates the usage  of native <b>Facebook, Google & Firebase Authentication</b> Sdk's developed with love in Swift 4.1 & XCode 9.
+A sample Notes creation demo which demonstrates usage of few core features of IOS. This sample discusses in depth about CoreData, Mapkit & Corelocation clubbed with TableView for showing note's list.
 
 <p float="left">
   <img src="https://github.com/yuvraj24/SwiftNotes/blob/master/SwiftStorage/SwiftStorage/screenshot/banner.png" />
-</p>
+</p> 
 
 # Spread Your ❤️:
 
 [![GitHub followers](https://img.shields.io/github/followers/yuvraj24.svg?style=social&label=Follow)](https://github.com/yuvraj24)  [![Twitter Follow](https://img.shields.io/twitter/follow/yuvrajpandey24.svg?style=social)](https://twitter.com/yuvrajpandey24)
 
-Following are some screenshots to get a glimpse of what the sample deliver's to you,
+# Basics
 
-<p float="left">
-  <img src="https://github.com/yuvraj24/SwiftNotes/blob/master/SwiftStorage/SwiftStorage/screenshot/splash.png" width="400" />
-  <img src="https://github.com/yuvraj24/SwiftNotes/blob/master/SwiftStorage/SwiftStorage/screenshot/home1.png" width="400" />
-  <img src="https://github.com/yuvraj24/SwiftNotes/blob/master/SwiftStorage/SwiftStorage/screenshot/notes1.png" width="400" />
-  <img src="https://github.com/yuvraj24/SwiftNotes/blob/master/SwiftStorage/SwiftStorage/screenshot/notes2.png" width="400" />
-  <img src="https://github.com/yuvraj24/SwiftNotes/blob/master/SwiftStorage/SwiftStorage/screenshot/map1.png" width="400" />
-  <img src="https://github.com/yuvraj24/SwiftNotes/blob/master/SwiftStorage/SwiftStorage/screenshot/map2.png" width="400" />
-  <img src="https://github.com/yuvraj24/SwiftNotes/blob/master/SwiftStorage/SwiftStorage/screenshot/notes3.png" width="400" />
-  <img src="https://github.com/yuvraj24/SwiftNotes/blob/master/SwiftStorage/SwiftStorage/screenshot/home2.png" width="400" />
-</p>
+So basically all it startes with a Splash screen followed by Home screen with empty tableview at first when user opens the app for 1st time or has not created any notes yet. 
 
+<img src="https://github.com/yuvraj24/SwiftNotes/blob/master/SwiftStorage/SwiftStorage/screenshot/splash.png" width="400" /><img src="https://github.com/yuvraj24/SwiftNotes/blob/master/SwiftStorage/SwiftStorage/screenshot/home1.png" width="400" />
+
+From here user can click on create icon which then will land on Create Notes screen. This screen allows you to add 3 things,
+- Image (Camera / Photo Library)
+- Location
+- Message (describing the message of the note).
+
+<img src="https://github.com/yuvraj24/SwiftNotes/blob/master/SwiftStorage/SwiftStorage/screenshot/notes1.png" width="400" /><img src="https://github.com/yuvraj24/SwiftNotes/blob/master/SwiftStorage/SwiftStorage/screenshot/notes2.png" width="400" />
+
+On click of location user is redirected to Map screen where in user by default is shown his current location using CoreLocation. User can search for any specific location according to his liking and post successfull search can clikc on Save to add that location to his note.
+
+<img src="https://github.com/yuvraj24/SwiftNotes/blob/master/SwiftStorage/SwiftStorage/screenshot/map1.png" width="400" /><img src="https://github.com/yuvraj24/SwiftNotes/blob/master/SwiftStorage/SwiftStorage/screenshot/map2.png" width="400" />
+
+In the final step user adds a message describing more about his objective behind creating that note. Post successfull addition of message user may click on save which redirects back to Home screen with the corresponding note created and displayed in tableview.
+
+<img src="https://github.com/yuvraj24/SwiftNotes/blob/master/SwiftStorage/SwiftStorage/screenshot/notes3.png" width="400" /><img src="https://github.com/yuvraj24/SwiftNotes/blob/master/SwiftStorage/SwiftStorage/screenshot/home2.png" width="400" />
 
 # About Me
 
